@@ -1,0 +1,84 @@
+<Style>
+  body {
+  width: 1000px;
+  margin: auto;
+  background-color: hsl(50, 20%, 95%)
+}
+
+#sidenavbar {
+  width: 20px;
+  height: 4px;
+  background-color: grey;
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-family:"Sacramento", Cursive;
+  color: #696969;
+  margin: 20px 0px 30px 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.navbar ul {
+  text-align: header;
+  float: right;
+  text-align: right;
+  list-style-type: none;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  }
+
+main {
+  font-family: arial;
+  font-size: 15px;
+}
+
+.navbar ul li{
+  display: inline;
+  padding: 20px;
+  color: #dva520;
+}
+
+a:link {
+  color: #696969;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #CCFFFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #696969;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img {
+  margin: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+image {
+  object-fit: cover;
+}
+
+form {
+  margin-top: 20px;
+}
+
+#text {
+  width: 400px;
+  height: 90px;
+  margin: 15px 0px 15px 25px;
+}
+</style>
