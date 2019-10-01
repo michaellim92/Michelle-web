@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.hero-img {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  background-color: #000;
+}
+#header-img {
+  height: 100vh;
+  width: auto;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+  object-fit: cover;
+
+}
+.header-text {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 30%;
+  left: 30%;
+  font-size: 40px;
+}
+#about-description {
+  display: inline-block;
+  float: right;
+  width: 500px;
+  text-align: left;
+  font-size: 20px;
+  font-family: times-new-roman;
+}
+#image {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  object-fit: fill;
+}

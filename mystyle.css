@@ -1,5 +1,8 @@
-<Style>
-  body {
+header{
+  height: 100vh;
+background-image: url(http://xiati.me/wp-content/uploads/2019/01/tumblr-marble-wallpaper-black.jpg);
+}
+/* body {
   width: 1000px;
   margin: auto;
   background-color: hsl(50, 20%, 95%)
@@ -66,9 +69,6 @@ a:visited {
 img {
   margin: 5px 10px 5px 10px;
   padding: 5px 10px 5px 10px;
-}
-
-image {
   object-fit: cover;
 }
 
@@ -81,4 +81,8 @@ form {
   height: 90px;
   margin: 15px 0px 15px 25px;
 }
-</style>
+
+.footer li{
+  display: inline;
+  float: right;
+} */
